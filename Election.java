@@ -31,7 +31,6 @@ public class Election {
                 winners.add(entry.getKey());
             }
         }
-        //String[] winner = winners.toArray();
         String winner = winners.last();
         System.out.println("The winner is: " + winner);
     }
