@@ -1,9 +1,17 @@
+import java.util.*;
+
 public class Permutation //See if a word is rewritten with the same letters
 {
     public static void main(String[] args)
     {
-        String r = "shoe";
-        String s = "hoes";
+        // String r = "shoe";
+        // String s = "hoes";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first word");
+        String r = sc.next();
+        System.out.print("Enter the second word");
+        String s = sc.next();
+
 
         System.out.println(decide(r,s));
     }
